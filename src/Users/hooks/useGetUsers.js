@@ -1,6 +1,7 @@
 import {getUsers} from "../utils";
 import {useState, useEffect} from "react"
 
+
 export const useGetUsers =()=>{
  const [users,setUsers]= useState([])
  const[error,setError] = useState("")
